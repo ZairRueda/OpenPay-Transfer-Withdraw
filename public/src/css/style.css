@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(149, 92, 202);
+    /* display: grid;
+    justify-content: center; */
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;  
+    margin: 0;  
+}
+
+.funciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.registro {
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box input {
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.titulo {
+    font-weight: 300;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: hsla(0, 0%, 70%, 0.438);
+    padding: 0 1rem;
+}
+
+.header__flex div{
+    margin: 0 1rem;
+}
+
+.header__flex a{
+    color: #ffffff;
+}
+
+.salir {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 2rem 0;
+}
+
+.botones div a{ 
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.registrar {
+    padding: 1rem;
+    background-color: rgb(168, 168, 255);
+}
+
+.transfer {
+    padding: 1rem;
+    background-color: rgb(205, 151, 255);
+}
+
+.balance h3{
+    text-align: center;
+    font-size: 2rem;
+}
